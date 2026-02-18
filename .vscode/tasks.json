@@ -4,7 +4,7 @@
         {
             "label": "catkin_make:build",
             "type": "shell",
-            "command": "catkin_make",
+            "command": "catkin build -j4",
             "args": [],
             "group": {
                 "kind": "build",

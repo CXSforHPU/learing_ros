@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/yahboom/my_work/catkin_ws/devel/include/**",
+                "/home/yahboom/catkin_ws/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/yahboom/ArTrack_ws/devel/include/**",
+                "/home/yahboom/dofbot_ws/devel/include/**",
+                "/home/yahboom/ArTrack_ws/src/ar_track_alvar/ar_track_alvar/include/**",
+                "/home/yahboom/catkin_ws/src/arm_color_identify/include/**",
+                "/home/yahboom/catkin_ws/src/arm_color_stacking/include/**",
+                "/home/yahboom/catkin_ws/src/arm_garbage_identify/include/**",
+                "/home/yahboom/catkin_ws/src/arm_info/include/**",
+                "/home/yahboom/catkin_ws/src/arm_snake_follow/include/**",
+                "/home/yahboom/dofbot_ws/src/dofbot_info/include/**",
+                "/home/yahboom/dofbot_ws/src/dofbot_mediapipe/include/**",
+                "/home/yahboom/dofbot_ws/src/dofbot_moveit/include/**",
+                "/home/yahboom/dofbot_ws/src/dofbot_visual/include/**",
+                "/home/yahboom/my_work/catkin_ws/src/learning_service/include/**",
+                "/home/yahboom/my_work/catkin_ws/src/plumbing_pub_sub/include/**",
+                "/usr/include/**",
+                "/opt/ros/noetic/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

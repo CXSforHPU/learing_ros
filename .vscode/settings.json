@@ -8,5 +8,6 @@
     ],
     "cmake.configureOnOpen": false,
     "cmake.configureOnEdit": false,
-    "github.copilot.chat.codeGeneration.useInstructionFiles": true
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "ros.distro": "noetic"
 }

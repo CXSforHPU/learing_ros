@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import sys
+sys.path.append("../../../devel/lib/python3/dist-packages")
+
 
 import rospy
-from std_msgs.msg import String
+from plumbing_pub_sub.msg import Person
 
 """
 1. 导包
@@ -15,12 +18,12 @@ from std_msgs.msg import String
 
 def pub_callback(msg):
 
-    rospy.loginfo("订阅的消息为：%s",msg.data)
+    rospy.loginfo("订阅的数据：%d %s %.2f",msg.age,msg.name,msg.height)
 
 
 if __name__ == "__main__":
     rospy.init_node("HaiDai")
 
-    sub = rospy.Subscriber("che",String,pub_callback,queue_size=1)
+    sub = rospy.Subscriber("che",Person,pub_callback,queue_size=1)
 
     rospy.spin()
