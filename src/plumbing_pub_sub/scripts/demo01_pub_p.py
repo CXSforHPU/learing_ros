@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import os
-
-os.system('source ../../../devel/setup.bash')
-
-
 import rospy
 from std_msgs.msg import String
 from plumbing_pub_sub.msg import Person

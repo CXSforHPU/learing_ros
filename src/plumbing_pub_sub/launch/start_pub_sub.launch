@@ -2,6 +2,6 @@
     <!-- 启动 发布 仿真节点 -->
     <node pkg="plumbing_pub_sub" type="demo03_pub_person_p" name="pub_person_p" />
     <!-- 启动 订阅 仿真节点 -->
-    <node pkg="plumbing_pub_sub" type="demo03_sub_person_p" name="sub_person_p" />
+    <node pkg="plumbing_pub_sub" type="demo03_sub_person_p" name="sub_person_p" output="screen" />
 
 </launch>

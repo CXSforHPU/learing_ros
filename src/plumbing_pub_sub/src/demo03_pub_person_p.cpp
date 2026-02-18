@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 {
     setlocale(LC_ALL, "");
     ros::init(argc, argv, "banzhuren");
-
+    ROS_INFO("发布方启动");
     ros::NodeHandle nh;
     ros::Publisher pub = nh.advertise<plumbing_pub_sub::Person>("chatter", 10);
 
@@ -36,4 +36,3 @@ int main(int argc, char **argv)
     }
 
 }
-

@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import sys
-sys.path.append("../../../devel/lib/python3/dist-packages")
-
 
 import rospy
 from plumbing_pub_sub.msg import Person
